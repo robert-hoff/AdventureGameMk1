@@ -1,6 +1,6 @@
 # AdventureGameMk1
 
-This Unity World features a flat terrain and a box reporesenting a player character.
+This Unity World features a flat terrain and a box representing a player character.
 
 The player can be moved around by left clicking the ground.
 
