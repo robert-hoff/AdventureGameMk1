@@ -63,7 +63,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2
+    value: 5
   threshold:
     overrideState: 1
     value: 1
@@ -144,8 +144,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 15
   tint:
     overrideState: 0
     value: 0
