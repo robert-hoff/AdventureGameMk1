@@ -288,6 +288,8 @@ MonoBehaviour:
   playerMesh: {fileID: 570204204}
   playerHair: {fileID: -1149613533337950434, guid: ab2db1176f2505445be6242a5b45e48f,
     type: 3}
+  playerHat: {fileID: 4039316423731608489, guid: 4721ed8c6a18eee418816e11c0f6c0e8,
+    type: 3}
   playerShirt: {fileID: 3012675750323719403, guid: ab2db1176f2505445be6242a5b45e48f,
     type: 3}
   playerTrousers: {fileID: -529177695146175607, guid: ab2db1176f2505445be6242a5b45e48f,
@@ -403,7 +405,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: f22bcc780055ef64081aada0e8c5ccbd, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -419,7 +421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991397701}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -250, y: 0, z: -250}
+  m_LocalPosition: {x: -50, y: 0, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -702,7 +704,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.63
+  m_Intensity: 0.64
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082

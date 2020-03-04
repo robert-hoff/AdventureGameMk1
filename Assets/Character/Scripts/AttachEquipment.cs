@@ -5,6 +5,7 @@ public class AttachEquipment : MonoBehaviour {
 
   public SkinnedMeshRenderer playerMesh;
   public SkinnedMeshRenderer playerHair;
+  public SkinnedMeshRenderer playerHat;
   public SkinnedMeshRenderer playerShirt;
   public SkinnedMeshRenderer playerTrousers;
   public SkinnedMeshRenderer playerShoes;
@@ -18,12 +19,14 @@ public class AttachEquipment : MonoBehaviour {
   void Start() {
     animator = GetComponentInChildren<Animator>();
     AttachMesh(playerHair);
+    AttachMesh(playerHat);
     AttachMesh(playerShirt);
     AttachMesh(playerTrousers);
     AttachMesh(playerShoes);
   }
 
   private void AttachMesh(SkinnedMeshRenderer playerEquipmentMesh) {
+    if (playerEquipmentMesh == null) return;
     SkinnedMeshRenderer newMesh = Instantiate(playerEquipmentMesh) as SkinnedMeshRenderer;
     newMesh.bones = playerMesh.bones;
     newMesh.rootBone = playerMesh.rootBone;
