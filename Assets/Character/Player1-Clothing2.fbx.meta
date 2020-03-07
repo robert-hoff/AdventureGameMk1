@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4721ed8c6a18eee418816e11c0f6c0e8
+guid: a25765c61ab3d114c8e0ec237664ab5e
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -11,12 +11,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wizard1
-    second: {fileID: 2100000, guid: a5fa62633075f814a8db25fb2677acf3, type: 2}
+    second: {fileID: 2100000, guid: 9a5a9d9f4814e2549a7bd592636a0be3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wizard2
-    second: {fileID: 2100000, guid: 739db34004240ee439f4623d8636d2d1, type: 2}
+    second: {fileID: 2100000, guid: 93265a2f6931a7144949bd203c6ea32c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

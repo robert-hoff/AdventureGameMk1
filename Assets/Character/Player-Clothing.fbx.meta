@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab2db1176f2505445be6242a5b45e48f
+guid: 1ec59a8fdae7fa5449e5d3ef698ccf2a
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -11,27 +11,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hair
-    second: {fileID: 2100000, guid: 69ee346cba59e2d47a851536321c150a, type: 2}
+    second: {fileID: 2100000, guid: 517026f2962f5594b812ce8345a78e34, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pants
-    second: {fileID: 2100000, guid: 6aaebb88d43f2eb4fbd1f0c0d8981a9e, type: 2}
+    second: {fileID: 2100000, guid: 73c604add7207a34e87c1c96b3d01ab9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoe
-    second: {fileID: 2100000, guid: ab67b774e97bd484d82177257c793e1e, type: 2}
+    second: {fileID: 2100000, guid: 7bfe971d38960bc4f98f7c8d1cbb3151, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Skin
-    second: {fileID: 2100000, guid: db12b53f2e7ccc34db6ab430dc5154ca, type: 2}
+    second: {fileID: 2100000, guid: 87d81ef26f8838146919a48a253f4d62, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Top
-    second: {fileID: 2100000, guid: 441dd19309395464089a665608824d68, type: 2}
+    second: {fileID: 2100000, guid: 57cc59b14ae8b694b9fe164378749a18, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -5,21 +5,22 @@ public class AttachEquipment : MonoBehaviour {
 
   public SkinnedMeshRenderer playerMesh;
   public SkinnedMeshRenderer playerHair;
-  public SkinnedMeshRenderer playerHat;
   public SkinnedMeshRenderer playerShirt;
   public SkinnedMeshRenderer playerTrousers;
   public SkinnedMeshRenderer playerShoes;
+  public SkinnedMeshRenderer playerHat;
   public SkinnedMeshRenderer playerSword;
 
-  private Animator animator;
   private SkinnedMeshRenderer playerSwordInstantiated = null;
+  private SkinnedMeshRenderer playerHatInstantiated = null;
 
+  private Animator animator;
 
 
   void Start() {
     animator = GetComponentInChildren<Animator>();
     AttachMesh(playerHair);
-    AttachMesh(playerHat);
+    // AttachMesh(playerHat);
     AttachMesh(playerShirt);
     AttachMesh(playerTrousers);
     AttachMesh(playerShoes);
@@ -38,9 +39,16 @@ public class AttachEquipment : MonoBehaviour {
     playerSwordInstantiated.rootBone = playerMesh.rootBone;
   }
 
+  private void AttachHat(SkinnedMeshRenderer hatMesh) {
+    playerHatInstantiated = Instantiate(hatMesh) as SkinnedMeshRenderer;
+    playerHatInstantiated.bones = playerMesh.bones;
+    playerHatInstantiated.rootBone = playerMesh.rootBone;
+  }
+
 
 
   private bool swordEquipped = false;
+  private bool hatEquipped = false;
 
   void Update() {
     if (Input.GetKeyDown(KeyCode.S)) {
@@ -54,6 +62,17 @@ public class AttachEquipment : MonoBehaviour {
         swordEquipped = false;
       }
     }
+
+    if (Input.GetKeyDown(KeyCode.H)) {
+      if (!hatEquipped) {
+        AttachHat(playerHat);
+        hatEquipped = true;
+      } else {
+        Destroy(playerHatInstantiated.gameObject);
+        hatEquipped = false;
+      }
+    }
+
   }
 
 

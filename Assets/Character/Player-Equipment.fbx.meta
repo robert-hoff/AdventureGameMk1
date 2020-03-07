@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b7200b87ff419d4fa77ca7c0583083e
+guid: 2bf7143148c9fe343b5aaf0404ac959d
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -22,47 +22,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dark Metal
-    second: {fileID: 2100000, guid: 68c0058e459fded4e872d7c8f36b65ae, type: 2}
+    second: {fileID: 2100000, guid: 8a13487fd72e52e4d8d0f3b199754db9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hilt
-    second: {fileID: 2100000, guid: 4c952be5c2241d9449dd613e3b6807d4, type: 2}
+    second: {fileID: 2100000, guid: 2aca6b7fa034f8442acc397a99d2af75, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal
-    second: {fileID: 2100000, guid: 278c03178bbe419489c06d90566722bc, type: 2}
+    second: {fileID: 2100000, guid: a865cf65518b8504ebd79324510fd94a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal 2
-    second: {fileID: 2100000, guid: adb44428e53e22d4c8c8d9517a2d39f8, type: 2}
+    second: {fileID: 2100000, guid: 04718283fedc7614e93b18e900da31bb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pants
-    second: {fileID: 2100000, guid: 6aaebb88d43f2eb4fbd1f0c0d8981a9e, type: 2}
+    second: {fileID: 2100000, guid: 73c604add7207a34e87c1c96b3d01ab9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Skin
-    second: {fileID: 2100000, guid: db12b53f2e7ccc34db6ab430dc5154ca, type: 2}
+    second: {fileID: 2100000, guid: 87d81ef26f8838146919a48a253f4d62, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Trim
-    second: {fileID: 2100000, guid: 1d0e0ed0d59d337439a6b5d937afc943, type: 2}
+    second: {fileID: 2100000, guid: 37890e818920c19439da54a4156d1777, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Trim white
-    second: {fileID: 2100000, guid: 8c5d5aa6d2ca7f54d9a722ac367ec48e, type: 2}
+    second: {fileID: 2100000, guid: f95acfc12f1b1a9459da8581a14ee388, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood
-    second: {fileID: 2100000, guid: 5730a504049209b4794e72ba6f4a26a9, type: 2}
+    second: {fileID: 2100000, guid: ea29c9ab53dfe40418142fa0f900446c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -127,7 +127,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 3

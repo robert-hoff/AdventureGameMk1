@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 0964cfaacdf40f94e963825ec2771f2a
+guid: 0c9869d5bff9265478e5cd672b415ebc
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 6d8d6d38eca122248845df465a156139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 8c1ef171f8f737847b5825ab09102706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 6d8d6d38eca122248845df465a156139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete
+    second: {fileID: 2100000, guid: adfae152224c1b4429bd1f7b2c873b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor-inside
+    second: {fileID: 2100000, guid: adfae152224c1b4429bd1f7b2c873b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof-tiles
+    second: {fileID: 2100000, guid: 97c3640a9412da24abfcf7ad5bf6a526, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
