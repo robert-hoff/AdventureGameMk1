@@ -49,7 +49,7 @@ public class Interactable : MonoBehaviour {
     Debug.Log("INTERACT " + transform.name);
   }
 
-  // shows the interaction radius in the IDE scene view
+  // shows interaction radius in the Unity scene view
   void OnDrawGizmosSelected() {
     Transform drawFromPosition = interactionTransform != null ? interactionTransform : transform;
     Gizmos.color = Color.yellow;
