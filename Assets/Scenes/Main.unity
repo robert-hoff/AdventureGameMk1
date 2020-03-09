@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: f935117435d557f44a3127455ca2adcc, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 3f15cbc8d39ad2d409dafa1fb27cff8e, type: 2}
 --- !u!137 &77170333 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2812322101022521344, guid: ea356eaf92fed984897aeacf984ffacc,
@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 9c3757215053b9947bf6404bf320559c,
         type: 3}
       propertyPath: m_NavMeshLayer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c3757215053b9947bf6404bf320559c, type: 3}
@@ -3423,7 +3423,7 @@ GameObject:
   m_Name: window-front2-interior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &670279767256581983
@@ -3548,7 +3548,7 @@ GameObject:
   m_Name: window-rear-frame-interior3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &1170069265721948383
@@ -3627,7 +3627,7 @@ GameObject:
   m_Name: window-side-frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &1570861489380556914
@@ -3661,7 +3661,7 @@ GameObject:
   m_Name: window-front1-interior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1764756017568818354
@@ -3725,7 +3725,7 @@ GameObject:
   m_Name: window-rear-frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &2323094946761805716
@@ -3743,7 +3743,7 @@ GameObject:
   m_Name: window-front1-interior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &2330918421917160388
@@ -3761,7 +3761,7 @@ GameObject:
   m_Name: window-rear-frame-interior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &2552184665071300873
@@ -3939,7 +3939,7 @@ GameObject:
   m_Name: window-side-frame-interior3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &2862580301170582646
@@ -4286,7 +4286,7 @@ GameObject:
   m_Name: window-front1-frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &4043439070210479564
@@ -4419,7 +4419,7 @@ GameObject:
   m_Name: window-side-frame-interior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &4681622751855578415
@@ -4863,7 +4863,7 @@ GameObject:
   m_Name: window-front2-interior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &7379145313576614944
@@ -5033,7 +5033,7 @@ GameObject:
   m_Name: window-side-frame-interior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &8296172667928677235
@@ -5075,7 +5075,7 @@ GameObject:
   m_Name: window-rear-frame-interior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8400240156449590481
@@ -5273,7 +5273,7 @@ GameObject:
   m_Name: window-front2-frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9079093809781566500
