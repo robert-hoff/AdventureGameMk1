@@ -1,11 +1,12 @@
 # AdventureGameMk1
 
-Testbed for third-person RPG games, features an animated character and interactable environment.
+This game is made for demonstrating and learning Unity. It features a third-person animated character and a cabin and lake scene.
 
 ![Game screenshot](https://cgdmg.dev/wp-content/uploads/2020/03/AdventureGameMk1-screen.png)
 
+## Running the game
 
-After opening the project in Unity, load the Main scene in the folder Assets/Scene. The project is compatible with Unity version 2019.2
+After opening the project in Unity, load the Main scene in the folder Assets/Scenes. The project is compatible with Unity version 2019.2
 
 ## Controls
 
