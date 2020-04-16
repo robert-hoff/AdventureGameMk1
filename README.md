@@ -6,7 +6,7 @@ This game is made for demonstrating and learning Unity. It features a third-pers
 
 ## Running the game
 
-After opening the project in Unity, load the Main scene in the folder Assets/Scenes. The project is compatible with Unity version 2019.2
+After opening the project in Unity, load either the Main scene or Landscape scene in the folder Assets/Scenes. The project is compatible with Unity version 2019.2
 
 ## Controls
 
