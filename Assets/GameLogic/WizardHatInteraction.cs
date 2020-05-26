@@ -1,6 +1,18 @@
 ﻿using UnityEngine;
 
 
+/*
+ *
+ * WizardHatInteraction script is assigned to the hat-stand game object in the cottage
+ *
+ * The hat-stand and wizard-hat game objects in the cottage is assigned Layer: Interactable
+ *
+ *
+ *
+ *
+ *
+ *
+ */
 public class WizardHatInteraction : Interactable {
 
   public GameObject hat;

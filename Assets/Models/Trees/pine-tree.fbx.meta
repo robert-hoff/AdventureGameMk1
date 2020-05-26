@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: febfb0101c6c97443a52939c11eead02
+guid: 9380c02c39e074144be365ee64741842
 ModelImporter:
-  serializedVersion: 26
+  serializedVersion: 19300
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Trees 01
-    second: {fileID: 2100000, guid: 676eb06a4fe195841bfd48483dd1ece6, type: 2}
+      name: mat-frond1
+    second: {fileID: 2100000, guid: 9a79e6ea70250504d8ba11986b26d107, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -74,7 +74,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -92,8 +91,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

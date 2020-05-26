@@ -1,41 +1,36 @@
 fileFormatVersion: 2
-guid: 0c9869d5bff9265478e5cd672b415ebc
+guid: debd1058dd1a0c64bb21c2b9f2d7c65b
 ModelImporter:
-  serializedVersion: 26
+  serializedVersion: 19300
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
+      name: mat-concrete
+    second: {fileID: 2100000, guid: adfae152224c1b4429bd1f7b2c873b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat-interior-wall
+    second: {fileID: 2100000, guid: b3a761b4dba3e9d40888321a87319ab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat-roof-tiles
+    second: {fileID: 2100000, guid: c028f77ba88117247bde381696f57955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat-wood-dark
     second: {fileID: 2100000, guid: 6d8d6d38eca122248845df465a156139, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.003
+      name: mat-wood-light
     second: {fileID: 2100000, guid: 8c1ef171f8f737847b5825ab09102706, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 6d8d6d38eca122248845df465a156139, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: concrete
-    second: {fileID: 2100000, guid: adfae152224c1b4429bd1f7b2c873b6c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: floor-inside
-    second: {fileID: 2100000, guid: adfae152224c1b4429bd1f7b2c873b6c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roof-tiles
-    second: {fileID: 2100000, guid: 97c3640a9412da24abfcf7ad5bf6a526, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -99,7 +94,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -117,8 +111,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
