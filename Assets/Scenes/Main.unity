@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028368, g: 0.22571431, b: 0.30692273, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -52,7 +52,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 0
-    m_EnableRealtimeLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 12
     m_Resolution: 2
@@ -193,6 +193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pine-tree-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9380c02c39e074144be365ee64741842,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9380c02c39e074144be365ee64741842, type: 3}
@@ -368,6 +373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine-tree-2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9380c02c39e074144be365ee64741842,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9380c02c39e074144be365ee64741842, type: 3}
 --- !u!1 &259135156
@@ -416,7 +426,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &279982792
 PrefabInstance:
@@ -535,7 +545,7 @@ Transform:
   - {fileID: 1648982506}
   - {fileID: 249376785}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 18.048, z: 0}
 --- !u!1001 &360328747
 PrefabInstance:
@@ -618,6 +628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pine-tree-3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9380c02c39e074144be365ee64741842,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9380c02c39e074144be365ee64741842, type: 3}
@@ -1387,7 +1402,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -3, z: 30}
 --- !u!1001 &710470942
 PrefabInstance:
@@ -1659,6 +1674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine-tree-4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9380c02c39e074144be365ee64741842,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9380c02c39e074144be365ee64741842, type: 3}
 --- !u!1001 &842026500
@@ -1710,7 +1730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 497320, guid: a9f2d6d9fbe2a3c469410ad94cff2c3b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 497320, guid: a9f2d6d9fbe2a3c469410ad94cff2c3b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1801,6 +1821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cauldron
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5b58748ec7f33f2418d4995500311697,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b58748ec7f33f2418d4995500311697, type: 3}
 --- !u!1001 &961412144
@@ -1884,6 +1909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: leafy-tree-1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c9a73d224d1ac2a41b4acddf136977ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a73d224d1ac2a41b4acddf136977ec, type: 3}
@@ -1987,7 +2017,7 @@ MonoBehaviour:
   target: {fileID: 6811902887162663690}
   offset: {x: 0.5, y: -0.2, z: 0.5}
   currentZoom: 12
-  maxZoom: 20
+  maxZoom: 100
   minZoom: 2
   zoomSensitivity: 10
   pitch: 2
@@ -3313,6 +3343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: leafy-tree-2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c9a73d224d1ac2a41b4acddf136977ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a73d224d1ac2a41b4acddf136977ec, type: 3}
 --- !u!1 &1770599751
@@ -3488,6 +3523,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pine-tree-5
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9380c02c39e074144be365ee64741842,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9380c02c39e074144be365ee64741842, type: 3}
