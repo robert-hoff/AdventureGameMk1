@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.adventuregamemk1.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "N:\\GIT\\AGM1VR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "AdventureGameMk1 [Testing]"
+        }
+      }
+    }
+  ]
+}
