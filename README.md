@@ -15,7 +15,6 @@ The player can be moved around by left clicking the ground. The camera can be zo
 
 ## About the project
 
-- The project is free and open source. It is developed by the Cambridge Game Design Meetup Group. We are a group from Cambridge, UK that meet occasionally  to work and collaborate on games. We post our events on Meetup.com https://www.meetup.com/Cambridge-Game-Design-Meetup-Group/
-- You can find more information about us and the project on our website https://cgdmg.dev/
-- If you'd like to chat you can join our Discord channel https://discordapp.com/invite/ypw8RnM
+- The project is free and open source. It is developed by the Cambridge Game Design Meetup Group. We are a group from Cambridge, UK that meet occasionally  to work and collaborate on games. You can find more information about us and the project on our website https://cgdmg.dev/
+- If you'd like to chat you can join our Discord channel https://discord.gg/Wv7fa7j
 
