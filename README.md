@@ -10,7 +10,9 @@ After opening the project in Unity, load either the Main, Landscape or Forest sc
 
 ## Controls
 
-The player can be moved around by left clicking the ground. The camera can be zoomed by mouse-scroll, holding down right-button orbits the camera around the player. A sword may be equipped by pressing 'S'.
+The player can be moved around by left clicking the ground. The camera can be zoomed by mouse-scroll, holding down right-button orbits the camera around the player.
+
+A sword may be equipped by pressing 'S'.
 
 
 ## About the project
