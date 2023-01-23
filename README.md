@@ -2,7 +2,7 @@
 
 This game is made for demonstrating and learning Unity. It features a third-person animated character and a cabin and lake scene.
 
-![Game screenshot](https://cgdmg.dev/wp-content/uploads/2020/03/AdventureGameMk1-screen.png)
+![Game screenshot](http://roberthoff.com/files/github/AdventureGameMk1-screen.png)
 
 ## Running the game
 
@@ -15,8 +15,4 @@ The player can be moved around by left clicking the ground. The camera can be zo
 A sword may be equipped by pressing 'S'.
 
 
-## About the project
-
-- The project is free and open source. It is developed by the Cambridge Game Design Meetup Group. We are a group from Cambridge, UK that meet occasionally  to work and collaborate on games. You can find more information about us and the project on our website https://cgdmg.dev/
-- If you'd like to chat you can join our Discord channel https://discord.gg/Wv7fa7j
 
